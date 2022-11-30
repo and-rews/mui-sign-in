@@ -69,7 +69,12 @@ const ForgotPassword = () => {
             </ThemeProvider>
           </div>
           <div className="right">
-            <img alt="icon" src="images/icon.png" height="250px" />
+            <img
+              alt="icon"
+              src="images/icon.png"
+              height="250px"
+              className="fmage"
+            />
           </div>
         </div>
       </div>

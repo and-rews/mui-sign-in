@@ -22,3 +22,26 @@
 .left .p {
   color: rgb(163, 163, 163);
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    display: grid;
+    text-align: center;
+    height: 70vh;
+  }
+
+  .right {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    top: -73vh;
+  }
+
+  .right img {
+    height: 50px;
+  }
+
+  .fmage {
+    margin-top: 6rem;
+  }
+}
